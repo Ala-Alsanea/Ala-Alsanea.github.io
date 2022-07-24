@@ -28,34 +28,42 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+
     <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+   
+
     <style>
         .typed-cursor {
             color: #96031a;
         }
+
         /* Paste this css to your style sheet file or under head tag */
         /* This only works with JavaScript, 
 if it's not present, don't show loader */
-        
+
         .no-js #loader {
             display: none;
         }
-        
+
         .js #loader {
             display: block;
             position: absolute;
             left: 100px;
             top: 0;
         }
-        
+
         .se-pre-con {
             position: fixed;
             left: 0px;
@@ -76,7 +84,7 @@ if it's not present, don't show loader */
     <script>
         //paste this code under head tag or in a seperate js file.
         // Wait for window load
-        $(window).load(function() {
+        $(window).load(function () {
             // Animate loader off screen
             $(".se-pre-con").fadeOut("slow");;
         });
@@ -92,22 +100,29 @@ if it's not present, don't show loader */
 
     <!-- header -->
     <div class="container-fluid d-flex flex-grow-1 flex-shrink-1 flex-fill justify-content-between">
+
+
         <section class="d-flex flex-column flex-fill pe-5 ms-5">
             <!-- Start: Navbar Right Links -->
-            <nav class="navbar navbar-light navbar-expand-md d-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center py-3 mb-1">
+
+            <nav
+                class="navbar navbar-light navbar-expand-md d-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center py-3 mb-1">
                 <div class="container">
                     <a class="navbar-brand d-flex align-items-center me-5" href="#">
                         <img src="assets/img/logo.svg" width="60" />
                     </a>
 
-                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2">
-                        <span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"
+                        aria-expanded="false" aria-label="Toggle navigation" aria-controls="navcol-2">
+                        <!-- <span class="visually-hidden">Toggle navigation</span> -->
+                        <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse pt-4 pt-md-0" id="navcol-2">
                         <ul class="navbar-nav ms-auto ms-5">
                             <li class="nav-item text-uppercase text-center mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2" href="#about" style="font-family: Bangers, serif">
+                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                                    href="#about" style="font-family: Bangers, serif">
                                     <span class="text-center text-white border-2" style="
                         border-style: none;
                         text-shadow: 0px 0px 3px #0a0101;
@@ -118,7 +133,8 @@ if it's not present, don't show loader */
                             </li>
 
                             <li class="nav-item text-uppercase text-center border-2 mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2" href="#skills" style="font-family: Bangers, serif">
+                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                                    href="#skills" style="font-family: Bangers, serif">
                                     <span class="text-center text-white border-2" style="
                         border-style: none;
                         text-shadow: 0px 0px 3px #0a0101;
@@ -129,7 +145,8 @@ if it's not present, don't show loader */
                             </li>
 
                             <li class="nav-item text-uppercase text-center border-2 mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2" href="#works" style="font-family: Bangers, serif">
+                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                                    href="#works" style="font-family: Bangers, serif">
                                     <span class="text-center text-white border-2" style="
                         border-style: none;
                         text-shadow: 0px 0px 3px #0a0101;
@@ -151,16 +168,19 @@ if it's not present, don't show loader */
                         Ala
                     </span> and I'm<br />
 
-                    <span class="typing fw-normal text-center text-danger display-3" style="font-family: Bangers, serif">
+                    <span class="typing fw-normal text-center text-danger display-3"
+                        style="font-family: Bangers, serif">
                     </span>
 
                 </p>
                 <div class="d-flex flex-column align-items-center">
                     <img class="mb-5 mt-3 w-lg-100" src="assets/img/developer%20pic.svg" width="200" />
-                    <div class="d-flex flex-column justify-content-evenly align-items-center mt-1" style="margin-bottom: -5px">
+                    <div class="d-flex flex-column justify-content-evenly align-items-center mt-1"
+                        style="margin-bottom: -5px">
 
                         <a href="#about">
-                            <img class="img-fluid bounce animated infinite" src="assets/img/scroll-down.svg?" width="30" />
+                            <img class="img-fluid bounce animated infinite" src="assets/img/scroll-down.svg?"
+                                width="30" />
                         </a>
 
                         <img class="mt-2" src="assets/img/line%20red.svg" width="7" />
@@ -169,7 +189,8 @@ if it's not present, don't show loader */
             </div>
         </section>
 
-        <section class="d-flex d-sm-flex d-lg-flex d-xxl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xxl-center align-items-xxl-center">
+        <section
+            class="d-flex d-sm-flex d-lg-flex d-xxl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xxl-center align-items-xxl-center">
             <div>
                 <img class="w-75" src="assets/img/line%20yellow.svg" style="margin-top: -20px" />
             </div>
@@ -178,22 +199,22 @@ if it's not present, don't show loader */
             <div class="vstack gap-1 d-flex justify-content-start align-items-center p-0">
                 <a href="mailto:ala0alsanea@gmail.com" class="my-2 w-50">
                     <img class="w-100" src="assets/img/gmail.svg" />
-                    
+
                 </a>
 
                 <a class="my-2 w-50" href="https://github.com/Ala-Alsanea" target="_blank">
                     <img class="w-100" src="assets/img/github.svg" />
                 </a>
 
-                <a class="my-2 w-50" href="https://www.linkedin.com/in/ala-alsanea"target="_blank">
+                <a class="my-2 w-50" href="https://www.linkedin.com/in/ala-alsanea-610963220" target="_blank">
                     <img class="w-100" src="assets/img/linkedin.svg" />
                 </a>
 
-                <a class="my-2 w-50" href="https://www.instagram.com/ala.alsanea"target="_blank">
+                <a class="my-2 w-50" href="https://www.instagram.com/ala.alsanea" target="_blank">
                     <img class="w-100" src="assets/img/instagram.svg" />
                 </a>
 
-                <a class="my-2 w-50" href="https://twitter.com/AlsaneaAlas"target="_blank">
+                <a class="my-2 w-50" href="https://twitter.com/AlsaneaAlas" target="_blank">
                     <img class="w-100" src="assets/img/twitter.svg" />
                 </a>
 
@@ -208,10 +229,13 @@ if it's not present, don't show loader */
                 hi again :)
             </h1>
 
-            <p class="lead text-break text-white mx-1 mx-md-5 px-md-5 fs-6 fs-md-5" style="font-family: Roboto, sans-serif">
+            <p class="lead text-break text-white mx-1 mx-md-5 px-md-5 fs-6 fs-md-5"
+                style="font-family: Roboto, sans-serif">
             </p>
 
-            <a href="doc/Ala Al-sanea [CV] v0.5 .pdf" target="_blank" class="btn btn-primary fs-4 link-light bg-warning border rounded-0 border-2 border-dark py-1 px-4 mb-5 mt-3 nav-link" role="button" style="
+            <a href="doc/Ala Al-sanea [CV] v0.5 .pdf" target="_blank"
+                class="btn btn-primary fs-4 link-light bg-warning border rounded-0 border-2 border-dark py-1 px-4 mb-5 mt-3 nav-link"
+                role="button" style="
             font-family: Bangers, serif;
             text-shadow: 0px 0px 3px rgb(0, 0, 0);
           ">
@@ -223,7 +247,8 @@ if it's not present, don't show loader */
     </div>
 
     <!-- skills -->
-    <div class="container bg-white shadow-lg d-lg-flex justify-content-around px-0 w-75" id="skills" style="margin-top: -101px; margin-bottom: 100px">
+    <div class="container bg-white shadow-lg d-lg-flex justify-content-around px-0 w-75" id="skills"
+        style="margin-top: -101px; margin-bottom: 100px">
 
         <section class="border-2 border-dark d-flex flex-column flex-fill align-items-center px-5 border border-1 pt-5">
 
@@ -233,7 +258,8 @@ if it's not present, don't show loader */
                 web dev.
             </h1>
 
-            <ul class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
+            <ul
+                class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
 
                 <li>php</li>
                 <li>html</li>
@@ -253,7 +279,8 @@ if it's not present, don't show loader */
                 programming<br />language
             </h1>
 
-            <ul class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
+            <ul
+                class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
 
                 <li>C++</li>
                 <li>java</li>
@@ -275,7 +302,8 @@ if it's not present, don't show loader */
                     design
                 </h1>
 
-                <ul class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
+                <ul
+                    class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
 
                     <li>UX/UI Design</li>
                     <li>Adobe illustrator</li>
@@ -285,7 +313,8 @@ if it's not present, don't show loader */
                 </ul>
             </div>
 
-            <div class="border-dark d-flex flex-column flex-fill border border-top-2 border-end-0 border-start-0 border-bottom-0 px-3">
+            <div
+                class="border-dark d-flex flex-column flex-fill border border-top-2 border-end-0 border-start-0 border-bottom-0 px-3">
 
                 <img class="my-3" src="assets/img/other.svg" height="70" />
 
@@ -293,7 +322,8 @@ if it's not present, don't show loader */
                     others
                 </h1>
 
-                <ul class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center mb-5 px-3 mt-4">
+                <ul
+                    class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center mb-5 px-3 mt-4">
 
                     <li>linux</li>
                     <li>git &amp; github</li>
@@ -304,7 +334,8 @@ if it's not present, don't show loader */
     </div>
 
     <!-- works -->
-    <div class="container-fluid d-flex flex-column align-items-center mt-5 py-5" id="works" style="margin-bottom: -180px">
+    <div class="container-fluid d-flex flex-column align-items-center mt-5 py-5" id="works"
+        style="margin-bottom: -180px">
 
         <h1 class="text-dark mb-5 display-2" style="font-family: Bangers, serif">
             my works
@@ -328,7 +359,10 @@ if it's not present, don't show loader */
                                 blogger website is builded with php, html, css(bootstrap5) and mysql
                             </p>
 
-                            <a href="http://blog0test.infinityfreeapp.com"  target="_blank" class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark" role="button" style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
+                            <a href="http://blog0test.infinityfreeapp.com" target="_blank"
+                                class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
+                                role="button"
+                                style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
 
                                 go live
                             </a>
@@ -351,7 +385,10 @@ if it's not present, don't show loader */
                                 play it Media app for playing Videos is builded with C#
                             </p>
 
-                            <a href="https://github.com/Ala-Alsanea/Play-it-WinForms.git" target="_blank" class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark" role="button" style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
+                            <a href="https://github.com/Ala-Alsanea/Play-it-WinForms.git" target="_blank"
+                                class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
+                                role="button"
+                                style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
                                 go to repo
                             </a>
 
@@ -378,7 +415,8 @@ if it's not present, don't show loader */
                     <!-- email -->
                     <li class="list-inline-item px-2">
                         <a href="mailto:ala0alsanea@gmail.com">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none" class="text-center text-light w-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
+                                fill="none" class="text-center text-light w-100">
                                 <path
                                     d="M2.00333 5.88355L9.99995 9.88186L17.9967 5.8835C17.9363 4.83315 17.0655 4 16 4H4C2.93452 4 2.06363 4.83318 2.00333 5.88355Z"
                                     fill="currentColor"></path>
@@ -391,22 +429,26 @@ if it's not present, don't show loader */
                         <!-- github -->
                     </li>
                     <li class="list-inline-item px-2">
-                        <a href="https://github.com/Ala-Alsanea" target="_blank"><i class="fab fa-github text-center text-light w-100"></i></a>
+                        <a href="https://github.com/Ala-Alsanea" target="_blank"><i
+                                class="fab fa-github text-center text-light w-100"></i></a>
                     </li>
 
                     <!-- linkedin -->
                     <li class="list-inline-item px-2">
-                        <a href="https://www.linkedin.com/in/ala-alsanea" target="_blank"><i class="fab fa-linkedin text-center text-light w-100"></i></a>
+                        <a href="https://www.linkedin.com/in/ala-alsanea-610963220" target="_blank"><i
+                                class="fab fa-linkedin text-center text-light w-100"></i></a>
                     </li>
 
                     <!-- insta -->
                     <li class="list-inline-item px-2">
-                        <a href="https://www.instagram.com/ala.alsanea" target="_blank"><i class="fab fa-instagram text-center text-light w-100"></i></a>
+                        <a href="https://www.instagram.com/ala.alsanea" target="_blank"><i
+                                class="fab fa-instagram text-center text-light w-100"></i></a>
                     </li>
 
                     <!-- twitter -->
                     <li class="list-inline-item px-2">
-                        <a href="https://twitter.com/AlsaneaAla" target="_blank"><i class="fab fa-twitter text-center text-light w-100"></i></a>
+                        <a href="https://twitter.com/AlsaneaAla" target="_blank"><i
+                                class="fab fa-twitter text-center text-light w-100"></i></a>
                     </li>
 
                 </ul>
@@ -420,10 +462,11 @@ if it's not present, don't show loader */
         <!-- End: Footer Dark -->
     </div>
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.js"></script>
-    <script src="assets/js/script.min.js"></script>
+    <!-- <script src="assets/js/script.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
     <script>
         var typing = new Typed(".typing", {
             strings: ["", "Web Developer", "programmer", "Freelancer", "problem solver"],
@@ -432,6 +475,11 @@ if it's not present, don't show loader */
             loop: true,
         });
     </script>
+
+
+
+
+    
 </body>
 
 </html>
