@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" style="
+<html
+  lang="en"
+  style="
     --bs-primary-rgb: 150, 3, 26;
     --bs-secondary-rgb: 109, 103, 110;
     --bs-warning: #faa916;
@@ -12,28 +14,37 @@
     --bs-dark-rgb: 27, 27, 30;
     --bs-secondary: #6d676e;
     --bs-body-bg: #fbfffe;
-  ">
-
-<head>
+  "
+>
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
 
     <title>Ala Al-Sanea</title>
 
-    <link rel="icon" type="image/*" href="assets/img/logo white.svg">
+    <link rel="icon" type="image/*" href="assets/img/logo white.svg" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
 
     <link rel="stylesheet" href="assets/css/styles.min.css" />
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
@@ -42,450 +53,545 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
 
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-   
 
     <style>
-        .typed-cursor {
-            color: #96031a;
-        }
+              .typed-cursor {
+                  color: #96031a;
+              }
 
-        /* Paste this css to your style sheet file or under head tag */
-        /* This only works with JavaScript, 
-if it's not present, don't show loader */
+              /* Paste this css to your style sheet file or under head tag */
+              /* This only works with JavaScript,
+      if it's not present, don't show loader */
 
-        .no-js #loader {
-            display: none;
-        }
+              .no-js #loader {
+                  display: none;
+              }
 
-        .js #loader {
-            display: block;
-            position: absolute;
-            left: 100px;
-            top: 0;
-        }
+              .js #loader {
+                  display: block;
+                  position: absolute;
+                  left: 100px;
+                  top: 0;
+              }
 
-        .se-pre-con {
-            position: fixed;
-            left: 0px;
-            top: 0px;
-            width: 100%;
-            height: 100%;
-            z-index: 9999;
-            background: url(assets/img/loader-64x/Preloader_3.gif) center no-repeat #fbfffe;
-        }
+              .se-pre-con {
+                  position: fixed;
+                  left: 0px;
+                  top: 0px;
+                  width: 100%;
+                  height: 100%;
+                  z-index: 9999;
+                  background: url(assets/img/loader-64x/Preloader_3.gif) center no-repeat #fbfffe;
+              }
     </style>
-
-
-
-
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script>
-        //paste this code under head tag or in a seperate js file.
-        // Wait for window load
-        $(window).load(function () {
-            // Animate loader off screen
-            $(".se-pre-con").fadeOut("slow");;
-        });
+      //paste this code under head tag or in a seperate js file.
+      // Wait for window load
+      $(window).load(function () {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+      });
     </script>
+  </head>
 
-
-
-</head>
-
-<body style="background: #fbfffe">
-
+  <body style="background: #fbfffe">
     <!-- <div class="se-pre-con"></div> -->
 
     <!-- header -->
-    <div class="container-fluid d-flex flex-grow-1 flex-shrink-1 flex-fill justify-content-between">
+    <div
+      class="container-fluid d-flex flex-grow-1 flex-shrink-1 flex-fill justify-content-between"
+    >
+      <section class="d-flex flex-column flex-fill pe-5 ms-5">
+        <!-- Start: Navbar Right Links -->
 
+        <nav
+          class="navbar navbar-light navbar-expand-md d-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center py-3 mb-1"
+        >
+          <div class="container">
+            <a class="navbar-brand d-flex align-items-center me-5" href="#">
+              <img src="assets/img/logo.svg" width="60" />
+            </a>
 
-        <section class="d-flex flex-column flex-fill pe-5 ms-5">
-            <!-- Start: Navbar Right Links -->
+            <button
+              data-bs-toggle="collapse"
+              class="navbar-toggler"
+              data-bs-target="#navcol-2"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              aria-controls="navcol-2"
+            >
+              <!-- <span class="visually-hidden">Toggle navigation</span> -->
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <nav
-                class="navbar navbar-light navbar-expand-md d-flex justify-content-center align-items-center justify-content-xxl-center align-items-xxl-center py-3 mb-1">
-                <div class="container">
-                    <a class="navbar-brand d-flex align-items-center me-5" href="#">
-                        <img src="assets/img/logo.svg" width="60" />
-                    </a>
-
-                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"
-                        aria-expanded="false" aria-label="Toggle navigation" aria-controls="navcol-2">
-                        <!-- <span class="visually-hidden">Toggle navigation</span> -->
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse pt-4 pt-md-0" id="navcol-2">
-                        <ul class="navbar-nav ms-auto ms-5">
-                            <li class="nav-item text-uppercase text-center mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
-                                    href="#about" style="font-family: Bangers, serif">
-                                    <span class="text-center text-white border-2" style="
+            <div class="collapse navbar-collapse pt-4 pt-md-0" id="navcol-2">
+              <ul class="navbar-nav ms-auto ms-5">
+                <li class="nav-item text-uppercase text-center mx-3">
+                  <a
+                    class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                    href="#about"
+                    style="font-family: Bangers, serif"
+                  >
+                    <span
+                      class="text-center text-white border-2"
+                      style="
                         border-style: none;
                         text-shadow: 0px 0px 3px #0a0101;
-                      ">
-                                        about
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li class="nav-item text-uppercase text-center border-2 mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
-                                    href="#skills" style="font-family: Bangers, serif">
-                                    <span class="text-center text-white border-2" style="
-                        border-style: none;
-                        text-shadow: 0px 0px 3px #0a0101;
-                      ">
-                                        skills
-                                    </span>
-                                </a>
-                            </li>
-
-                            <li class="nav-item text-uppercase text-center border-2 mx-3">
-                                <a class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
-                                    href="#works" style="font-family: Bangers, serif">
-                                    <span class="text-center text-white border-2" style="
-                        border-style: none;
-                        text-shadow: 0px 0px 3px #0a0101;
-                      ">
-                                        work
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- End: Navbar Right Links -->
-
-            <div class="d-flex flex-column align-items-center align-items-xxl-center mt-5 ms-md-5">
-                <p class="text-break fs-1 fw-bold" style="font-family: Roboto, sans-serif">
-                    Hi There,<br />I'm
-                    <span class="fw-normal text-danger" style="font-family: Bangers, serif">
-                        Ala
-                    </span> and I'm<br />
-
-                    <span class="typing fw-normal text-center text-danger display-3"
-                        style="font-family: Bangers, serif">
+                      "
+                    >
+                      about
                     </span>
+                  </a>
+                </li>
 
-                </p>
-                <div class="d-flex flex-column align-items-center">
-                    <img class="mb-5 mt-3 w-lg-100" src="assets/img/developer%20pic.svg" width="200" />
-                    <div class="d-flex flex-column justify-content-evenly align-items-center mt-1"
-                        style="margin-bottom: -5px">
+                <li class="nav-item text-uppercase text-center border-2 mx-3">
+                  <a
+                    class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                    href="#skills"
+                    style="font-family: Bangers, serif"
+                  >
+                    <span
+                      class="text-center text-white border-2"
+                      style="
+                        border-style: none;
+                        text-shadow: 0px 0px 3px #0a0101;
+                      "
+                    >
+                      skills
+                    </span>
+                  </a>
+                </li>
 
-                        <a href="#about">
-                            <img class="img-fluid bounce animated infinite" src="assets/img/scroll-down.svg?"
-                                width="30" />
-                        </a>
-
-                        <img class="mt-2" src="assets/img/line%20red.svg" width="7" />
-                    </div>
-                </div>
+                <li class="nav-item text-uppercase text-center border-2 mx-3">
+                  <a
+                    class="nav-link active text-uppercase fs-4 text-center link-light bg-warning border rounded-0 border-2 border-dark px-3 py-1 my-2"
+                    href="#works"
+                    style="font-family: Bangers, serif"
+                  >
+                    <span
+                      class="text-center text-white border-2"
+                      style="
+                        border-style: none;
+                        text-shadow: 0px 0px 3px #0a0101;
+                      "
+                    >
+                      work
+                    </span>
+                  </a>
+                </li>
+              </ul>
             </div>
-        </section>
+          </div>
+        </nav>
+        <!-- End: Navbar Right Links -->
 
-        <section
-            class="d-flex d-sm-flex d-lg-flex d-xxl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xxl-center align-items-xxl-center">
-            <div>
-                <img class="w-75" src="assets/img/line%20yellow.svg" style="margin-top: -20px" />
+        <div
+          class="d-flex flex-column align-items-center align-items-xxl-center mt-5 ms-md-5"
+        >
+          <p
+            class="text-break fs-1 fw-bold"
+            style="font-family: Roboto, sans-serif"
+          >
+            Hi There,<br />I'm
+            <span
+              class="fw-normal text-danger"
+              style="font-family: Bangers, serif"
+            >
+              Ala
+            </span>
+            and I'm<br />
+
+            <span
+              class="typing fw-normal text-center text-danger display-3"
+              style="font-family: Bangers, serif"
+            >
+            </span>
+          </p>
+          <div class="d-flex flex-column align-items-center">
+            <img
+              class="mb-5 mt-3 w-lg-100"
+              src="assets/img/developer%20pic.svg"
+              width="200"
+            />
+            <div
+              class="d-flex flex-column justify-content-evenly align-items-center mt-1"
+              style="margin-bottom: -5px"
+            >
+              <a href="#about">
+                <img
+                  class="img-fluid bounce animated infinite"
+                  src="assets/img/scroll-down.svg?"
+                  width="30"
+                />
+              </a>
+
+              <img class="mt-2" src="assets/img/line%20red.svg" width="7" />
             </div>
+          </div>
+        </div>
+      </section>
 
-            <!-- social links -->
-            <div class="vstack gap-1 d-flex justify-content-start align-items-center p-0">
-                <a href="mailto:ala0alsanea@gmail.com" class="my-2 w-50">
-                    <img class="w-100" src="assets/img/gmail.svg" />
+      <section
+        class="d-flex d-sm-flex d-lg-flex d-xxl-flex flex-column justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-lg-center align-items-lg-center justify-content-xxl-center align-items-xxl-center"
+      >
+        <div>
+          <img
+            class="w-75"
+            src="assets/img/line%20yellow.svg"
+            style="margin-top: -20px"
+          />
+        </div>
 
-                </a>
+        <!-- social links -->
+        <div
+          class="vstack gap-1 d-flex justify-content-start align-items-center p-0"
+        >
+          <a href="mailto:ala0alsanea@gmail.com" class="my-2 w-50">
+            <img class="w-100" src="assets/img/gmail.svg" />
+          </a>
 
-                <a class="my-2 w-50" href="https://github.com/Ala-Alsanea" target="_blank">
-                    <img class="w-100" src="assets/img/github.svg" />
-                </a>
+          <a
+            class="my-2 w-50"
+            href="https://github.com/Ala-Alsanea"
+            target="_blank"
+          >
+            <img class="w-100" src="assets/img/github.svg" />
+          </a>
 
-                <a class="my-2 w-50" href="https://www.linkedin.com/in/ala-alsanea-610963220" target="_blank">
-                    <img class="w-100" src="assets/img/linkedin.svg" />
-                </a>
+          <a
+            class="my-2 w-50"
+            href="https://www.linkedin.com/in/ala-alsanea-610963220"
+            target="_blank"
+          >
+            <img class="w-100" src="assets/img/linkedin.svg" />
+          </a>
 
-                <a class="my-2 w-50" href="https://www.instagram.com/ala.alsanea" target="_blank">
-                    <img class="w-100" src="assets/img/instagram.svg" />
-                </a>
+          <a
+            class="my-2 w-50"
+            href="https://www.instagram.com/ala.alsanea"
+            target="_blank"
+          >
+            <img class="w-100" src="assets/img/instagram.svg" />
+          </a>
 
-                <a class="my-2 w-50" href="https://twitter.com/AlsaneaAla" target="_blank">
-                    <img class="w-100" src="assets/img/twitter.svg" />
-                </a>
-
-            </div>
-        </section>
+          <a
+            class="my-2 w-50"
+            href="https://twitter.com/AlsaneaAla"
+            target="_blank"
+          >
+            <img class="w-100" src="assets/img/twitter.svg" />
+          </a>
+        </div>
+      </section>
     </div>
 
     <!-- about -->
     <div class="container-fluid bg-danger py-5" id="about">
-        <section class="d-flex flex-column align-items-center px-0 px-md-5 pb-5">
-            <h1 class="fs-1 text-white" style="font-family: Bangers, serif">
-                hi again :)
-            </h1>
+      <section class="d-flex flex-column align-items-center px-0 px-md-5 pb-5">
+        <h1 class="fs-1 text-white" style="font-family: Bangers, serif">
+          hi again :)
+        </h1>
 
-            <p class="lead text-break text-white mx-1 mx-md-5 px-md-5 fs-6 fs-md-5"
-                style="font-family: Roboto, sans-serif">
-            </p>
+        <p
+          class="lead text-break text-white mx-1 mx-md-5 px-md-5 fs-6 fs-md-5"
+          style="font-family: Roboto, sans-serif"
+        ></p>
 
-            <a href="doc/Ala Al-sanea [CV] v0.5 .pdf" target="_blank"
-                class="btn btn-primary fs-4 link-light bg-warning border rounded-0 border-2 border-dark py-1 px-4 mb-5 mt-3 nav-link"
-                role="button" style="
+        <a
+          href="https://docs.google.com/document/d/13KK7DjUYg7r0KrNU_XBxGcMapW7jN0AifFwMADuF-SM/edit?usp=sharing"
+          target="_blank"
+          class="btn btn-primary fs-4 link-light bg-warning border rounded-0 border-2 border-dark py-1 px-4 mb-5 mt-3 nav-link"
+          role="button"
+          style="
             font-family: Bangers, serif;
             text-shadow: 0px 0px 3px rgb(0, 0, 0);
-          ">
-                get my cv &nbsp; &nbsp;&nbsp;
-                <i class="fas fa-file-download"></i>
-                &nbsp;
-            </a>
-        </section>
+          "
+        >
+          get my cv &nbsp; &nbsp;&nbsp;
+          <i class="fas fa-file-download"></i>
+          &nbsp;
+        </a>
+      </section>
     </div>
 
     <!-- skills -->
-    <div class="container bg-white shadow-lg d-lg-flex justify-content-around px-0 w-75" id="skills"
-        style="margin-top: -101px; margin-bottom: 100px">
+    <div
+      class="container bg-white shadow-lg d-lg-flex justify-content-around px-0 w-75"
+      id="skills"
+      style="margin-top: -101px; margin-bottom: 100px"
+    >
+      <section
+        class="border-2 border-dark d-flex flex-column flex-fill align-items-center px-5 border border-1 pt-5"
+      >
+        <img class="mb-3" src="assets/img/web%20dev.svg" height="70" />
 
-        <section class="border-2 border-dark d-flex flex-column flex-fill align-items-center px-5 border border-1 pt-5">
+        <h1 class="text-center" style="font-family: Bangers, serif">
+          web dev.
+        </h1>
 
-            <img class="mb-3" src="assets/img/web%20dev.svg" height="70" />
+        <ul
+          class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4"
+        >
+          <li>php</li>
+          <li>html</li>
+          <li>css</li>
+          <li>Bootstrap</li>
+          <li>Tailwindcss</li>
+          <li>javaScript</li>
+        </ul>
+      </section>
 
-            <h1 class="text-center" style="font-family: Bangers, serif">
-                web dev.
-            </h1>
+      <section
+        class="border-2 border-dark d-flex flex-column flex-fill align-items-center px-5 border border-1 pt-5"
+      >
+        <img class="mb-3" src="assets/img/programming%20lang.svg" height="70" />
 
-            <ul
-                class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
+        <h1 class="text-center" style="font-family: Bangers, serif">
+          programming<br />language
+        </h1>
 
-                <li>php</li>
-                <li>html</li>
-                <li>css</li>
-                <li>Bootstrap</li>
-                <li>Tailwindcss</li>
-                <li>javaScript</li>
+        <ul
+          class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4"
+        >
+          <li>C++</li>
+          <li>java</li>
+          <li>C#</li>
+          <li>python</li>
+          <li>sql</li>
+        </ul>
+      </section>
 
-            </ul>
-        </section>
+      <section
+        class="border-2 border-dark d-flex flex-column flex-fill align-items-stretch border border-1 pt-5"
+      >
+        <div class="d-flex flex-column flex-fill px-3 pb-5">
+          <img
+            class="d-flex flex-column align-items-center mb-3"
+            src="assets/img/design.svg"
+            height="70"
+          />
 
-        <section class="border-2 border-dark d-flex flex-column flex-fill align-items-center px-5 border border-1 pt-5">
+          <h1
+            class="text-center d-flex flex-column align-items-center"
+            style="font-family: Bangers, serif"
+          >
+            design
+          </h1>
 
-            <img class="mb-3" src="assets/img/programming%20lang.svg" height="70" />
+          <ul
+            class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4"
+          >
+            <li>UX/UI Design</li>
+            <li>Adobe illustrator</li>
+            <li>Adobe XD</li>
+            <li>Adobe photoshop</li>
+          </ul>
+        </div>
 
-            <h1 class="text-center" style="font-family: Bangers, serif">
-                programming<br />language
-            </h1>
+        <div
+          class="border-dark d-flex flex-column flex-fill border border-top-2 border-end-0 border-start-0 border-bottom-0 px-3"
+        >
+          <img class="my-3" src="assets/img/other.svg" height="70" />
 
-            <ul
-                class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
+          <h1 class="text-center" style="font-family: Bangers, serif">
+            others
+          </h1>
 
-                <li>C++</li>
-                <li>java</li>
-                <li>C#</li>
-                <li>python</li>
-                <li>sql</li>
-
-            </ul>
-        </section>
-
-
-        <section class="border-2 border-dark d-flex flex-column flex-fill align-items-stretch border border-1 pt-5">
-
-            <div class="d-flex flex-column flex-fill px-3 pb-5">
-
-                <img class="d-flex flex-column align-items-center mb-3" src="assets/img/design.svg" height="70" />
-
-                <h1 class="text-center d-flex flex-column align-items-center" style="font-family: Bangers, serif">
-                    design
-                </h1>
-
-                <ul
-                    class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center px-3 mt-4">
-
-                    <li>UX/UI Design</li>
-                    <li>Adobe illustrator</li>
-                    <li>Adobe XD</li>
-                    <li>Adobe photoshop</li>
-
-                </ul>
-            </div>
-
-            <div
-                class="border-dark d-flex flex-column flex-fill border border-top-2 border-end-0 border-start-0 border-bottom-0 px-3">
-
-                <img class="my-3" src="assets/img/other.svg" height="70" />
-
-                <h1 class="text-center" style="font-family: Bangers, serif">
-                    others
-                </h1>
-
-                <ul
-                    class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center mb-5 px-3 mt-4">
-
-                    <li>linux</li>
-                    <li>git &amp; github</li>
-
-                </ul>
-            </div>
-        </section>
+          <ul
+            class="list-unstyled font-monospace text-uppercase fs-4 d-flex flex-column flex-fill align-items-center mb-5 px-3 mt-4"
+          >
+            <li>linux</li>
+            <li>git &amp; github</li>
+          </ul>
+        </div>
+      </section>
     </div>
 
     <!-- works -->
-    <div class="container-fluid d-flex flex-column align-items-center mt-5 py-5" id="works"
-        style="margin-bottom: -180px">
+    <div
+      class="container-fluid d-flex flex-column align-items-center mt-5 py-5"
+      id="works"
+      style="margin-bottom: -180px"
+    >
+      <h1 class="text-dark mb-5 display-2" style="font-family: Bangers, serif">
+        my works
+      </h1>
 
-        <h1 class="text-dark mb-5 display-2" style="font-family: Bangers, serif">
-            my works
-        </h1>
+      <section class="d-flex d-xxl-flex justify-content-center mx-3">
+        <div
+          class="row row-cols-1 row-cols-md-1 row-cols-lg-3 d-flex flex-row mx-sm-5 mx-md-0"
+        >
+          <div class="col">
+            <div class="card shadow mx-1 my-3">
+              <img
+                class="card-img-top w-100 d-block"
+                src="assets/img/clipboard-image-1.png"
+              />
 
-        <section class="d-flex d-xxl-flex justify-content-center mx-3">
-            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 d-flex flex-row mx-sm-5 mx-md-0">
+              <div class="card-body">
+                <h4
+                  class="text-uppercase card-title"
+                  style="font-family: Roboto, sans-serif"
+                >
+                  blogger
+                </h4>
 
-                <div class="col">
-                    <div class="card shadow mx-1 my-3">
+                <p
+                  class="text-capitalize card-text"
+                  style="font-family: Roboto, sans-serif"
+                >
+                  blogger website is builded with php, html, css(bootstrap5) and
+                  mysql
+                </p>
 
-                        <img class="card-img-top w-100 d-block" src="assets/img/clipboard-image-1.png" />
-
-                        <div class="card-body">
-
-                            <h4 class="text-uppercase card-title" style="font-family: Roboto, sans-serif">
-                                blogger
-                            </h4>
-
-                            <p class="text-capitalize card-text" style="font-family: Roboto, sans-serif">
-                                blogger website is builded with php, html, css(bootstrap5) and mysql
-                            </p>
-
-                            <a href="http://blog0test.infinityfreeapp.com" target="_blank"
-                                class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
-                                role="button"
-                                style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
-
-                                go live
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="card shadow mx-1 my-3">
-
-                        <img class="card-img-top w-100 d-block h-25" src="assets/img/Group%2026.png" />
-
-                        <div class="card-body">
-                            <h4 class="text-uppercase card-title" style="font-family: Roboto, sans-serif">
-                                play it
-                            </h4>
-
-                            <p class="text-capitalize card-text" style="font-family: Roboto, sans-serif">
-                                play it Media app for playing Videos is builded with C#
-                            </p>
-
-                            <a href="https://github.com/Ala-Alsanea/Play-it-WinForms.git" target="_blank"
-                                class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
-                                role="button"
-                                style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);">
-                                go to repo
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-
+                <a
+                  href="http://blog0test.infinityfreeapp.com"
+                  target="_blank"
+                  class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
+                  role="button"
+                  style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);"
+                >
+                  go live
+                </a>
+              </div>
             </div>
-        </section>
+          </div>
+
+          <div class="col">
+            <div class="card shadow mx-1 my-3">
+              <img
+                class="card-img-top w-100 d-block h-25"
+                src="assets/img/Group%2026.png"
+              />
+
+              <div class="card-body">
+                <h4
+                  class="text-uppercase card-title"
+                  style="font-family: Roboto, sans-serif"
+                >
+                  play it
+                </h4>
+
+                <p
+                  class="text-capitalize card-text"
+                  style="font-family: Roboto, sans-serif"
+                >
+                  play it Media app for playing Videos is builded with C#
+                </p>
+
+                <a
+                  href="https://github.com/Ala-Alsanea/Play-it-WinForms.git"
+                  target="_blank"
+                  class="btn btn-primary fs-5 bg-warning border rounded-0 border-2 border-dark"
+                  role="button"
+                  style="font-family: Bangers, serif;text-shadow: 0px 0px 3px rgb(0, 0, 0);"
+                >
+                  go to repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <!-- contact and footer -->
-    <div class="container-fluid text-dark bg-dark bg-gradient px-5" style="padding-top: 140px">
+    <div
+      class="container-fluid text-dark bg-dark bg-gradient px-5"
+      style="padding-top: 140px"
+    >
+      <footer class="fs-3 text-center">
+        <div class="container text-white py-4 pt-lg-5">
+          <a href="#">
+            <img class="mb-4" src="assets/img/logo%20white.svg?" width="50" />
+          </a>
 
-        <footer class="fs-3 text-center">
-            <div class="container text-white py-4 pt-lg-5">
+          <ul class="list-inline d-flex d-md-flex justify-content-center py-2">
+            <!-- email -->
+            <li class="list-inline-item px-2">
+              <a href="mailto:ala0alsanea@gmail.com">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  class="text-center text-light w-100"
+                >
+                  <path
+                    d="M2.00333 5.88355L9.99995 9.88186L17.9967 5.8835C17.9363 4.83315 17.0655 4 16 4H4C2.93452 4 2.06363 4.83318 2.00333 5.88355Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M18 8.1179L9.99995 12.1179L2 8.11796V14C2 15.1046 2.89543 16 4 16H16C17.1046 16 18 15.1046 18 14V8.1179Z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
 
-                <a href="#">
-                    <img class="mb-4" src="assets/img/logo%20white.svg?" width="50" />
-                </a>
+              <!-- github -->
+            </li>
+            <li class="list-inline-item px-2">
+              <a href="https://github.com/Ala-Alsanea" target="_blank"
+                ><i class="fab fa-github text-center text-light w-100"></i
+              ></a>
+            </li>
 
-                <ul class="list-inline d-flex d-md-flex justify-content-center py-2">
+            <!-- linkedin -->
+            <li class="list-inline-item px-2">
+              <a
+                href="https://www.linkedin.com/in/ala-alsanea-610963220"
+                target="_blank"
+                ><i class="fab fa-linkedin text-center text-light w-100"></i
+              ></a>
+            </li>
 
-                    <!-- email -->
-                    <li class="list-inline-item px-2">
-                        <a href="mailto:ala0alsanea@gmail.com">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"
-                                fill="none" class="text-center text-light w-100">
-                                <path
-                                    d="M2.00333 5.88355L9.99995 9.88186L17.9967 5.8835C17.9363 4.83315 17.0655 4 16 4H4C2.93452 4 2.06363 4.83318 2.00333 5.88355Z"
-                                    fill="currentColor"></path>
-                                <path
-                                    d="M18 8.1179L9.99995 12.1179L2 8.11796V14C2 15.1046 2.89543 16 4 16H16C17.1046 16 18 15.1046 18 14V8.1179Z"
-                                    fill="currentColor"></path>
-                            </svg>
-                        </a>
+            <!-- insta -->
+            <li class="list-inline-item px-2">
+              <a href="https://www.instagram.com/ala.alsanea" target="_blank"
+                ><i class="fab fa-instagram text-center text-light w-100"></i
+              ></a>
+            </li>
 
-                        <!-- github -->
-                    </li>
-                    <li class="list-inline-item px-2">
-                        <a href="https://github.com/Ala-Alsanea" target="_blank"><i
-                                class="fab fa-github text-center text-light w-100"></i></a>
-                    </li>
+            <!-- twitter -->
+            <li class="list-inline-item px-2">
+              <a href="https://twitter.com/AlsaneaAla" target="_blank"
+                ><i class="fab fa-twitter text-center text-light w-100"></i
+              ></a>
+            </li>
+          </ul>
 
-                    <!-- linkedin -->
-                    <li class="list-inline-item px-2">
-                        <a href="https://www.linkedin.com/in/ala-alsanea-610963220" target="_blank"><i
-                                class="fab fa-linkedin text-center text-light w-100"></i></a>
-                    </li>
-
-                    <!-- insta -->
-                    <li class="list-inline-item px-2">
-                        <a href="https://www.instagram.com/ala.alsanea" target="_blank"><i
-                                class="fab fa-instagram text-center text-light w-100"></i></a>
-                    </li>
-
-                    <!-- twitter -->
-                    <li class="list-inline-item px-2">
-                        <a href="https://twitter.com/AlsaneaAla" target="_blank"><i
-                                class="fab fa-twitter text-center text-light w-100"></i></a>
-                    </li>
-
-                </ul>
-
-
-                <p class="font-monospace fs-5 text-muted mb-0 mt-5">
-                    Copyright © 2023 Ala Al-Sanea
-                </p>
-            </div>
-        </footer>
-        <!-- End: Footer Dark -->
+          <p class="font-monospace fs-5 text-muted mb-0 mt-5">
+            Copyright © 2023 Ala Al-Sanea
+          </p>
+        </div>
+      </footer>
+      <!-- End: Footer Dark -->
     </div>
 
+    <!-- ############################################################################ -->
 
-<!-- ############################################################################ -->
-   
-
-
-
-<!-- <script src="assets/js/script.min.js"></script> -->
+    <!-- <script src="assets/js/script.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script> -->
     <script src="assets/bootstrap/js/bootstrap.js"></script>
 
     <script>
-        var typing = new Typed(".typing", {
-            strings: ["", "Full-Stack Web Developer", "programmer", "Freelancer", "problem solver"],
-            typeSpeed: 100,
-            backSpeed: 40,
-            loop: true,
-        });
+      var typing = new Typed(".typing", {
+        strings: [
+          "",
+          "Full-Stack Web Developer",
+          "programmer",
+          "Freelancer",
+          "problem solver",
+        ],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+      });
     </script>
-
-
-
-
-    
-</body>
-
+  </body>
 </html>
